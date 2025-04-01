@@ -1,10 +1,3 @@
-# Technical test 05
-
-
-Terminar de implementar la API Rest de la entidad de dominio Offer.
-
-
-El proyecto se entrega con un sencilla distribución por paquetes intentado seguir una arquitectura hexagonal y orientda a Domino, un controlador, un dto, una entidad y una excepcion para la capa Rest, los datos deben de guardse una bbdd en memoria, basicamente es implementar un CRUD de Offer.
 
 La única peculiaridad es que el `*productPartnumber*` en bbbd debe de almacenarse en varias columnas, es decir, la entrada es 000100233 (TTMMMMQQQ)
 pero en bbbd se almacenará, TTMMMMQQQ:
